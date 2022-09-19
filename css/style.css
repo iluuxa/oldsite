@@ -1,0 +1,93 @@
+body{
+    /*height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color:black;*/
+    margin: 0;
+    background: saddlebrown;
+}
+.main-container{
+
+    display: grid;
+    grid-template-columns: 25vw 4fr;
+    grid-template-rows: 25vh 4fr;
+    grid-gap:0.2vmin;
+    background: saddlebrown;
+    width: 100vw;
+    height: 100vh;
+}
+.header-image{
+    background: sandybrown;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    line-height: 8vh;
+    align-content: center;
+}
+.header-image-logo{
+    width: 8vw;
+    height: 15vh;
+}
+.header-image-text{
+    padding-right: 0.5vmin;
+    font-size: 2vmax;
+    text-align: center;
+    min-width: min-content;
+}
+.header-text{
+    font-family: 'Times New Roman';
+    line-height: 15vh;
+    font-size: 3vmax;
+    background: sandybrown;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-right: 20vw;
+}
+.menu{
+    background: sandybrown;
+    text-align: center;
+    font-size: 2vw;
+    white-space: nowrap;
+    height: 100%;
+}
+.content{
+    background: darksalmon;
+    height: 100%;
+}
+.poem-title{
+    text-align: center;
+    font: bold 24px "Times New Roman";
+    margin-bottom: 3vh;
+}
+.poem-content{
+    text-align: left;
+    font: italic 16px "Times New Roman"
+}
+.poem-author{
+    text-align: right;
+    font: 16px "Times New Roman"
+}
+.poem div{
+    margin-left: 20vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    white-space: nowrap;
+}
+.poem-list{
+    text-align: left;
+}
+.poem-list-container{
+    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-top: 3vh;
+}
+.poem-ref-item{
+    color:black;
+    font: 20pt "Times New Roman";
+    margin-top: 2vh;
+}
+.poem-ref{
+    color:black;
+}

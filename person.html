@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/poems/css/style.css">
+    <title>Сборник стихов</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $("#header-image").load("/poems/header_image.html");
+            $("#header-text").load("/poems/header_text.html");
+            $("#menu").load("/poems/menu.html");
+        });
+    </script>
+</head>
+<body>
+<div class="main-container">
+    <div id="header-image"></div>
+    <div id="header-text"></div>
+    <div id="menu"></div>
+    <div class="content">
+        <div class="poem-list-container">
+            <ol class="poem-list">
+                <li class="poem-ref-item"><a class="poem-ref" href="/poems/items/silentium.html">Тютчев Ф.Ю. - Silentium!</a>
+                </li>
+                <li class="poem-ref-item"><a class="poem-ref" href="/poems/items/Няне.html">Пушкин А.С. - Няне</a>
+                </li>
+                <li class="poem-ref-item"><a class="poem-ref" href="/poems/items/Пророк.html">Пушкин А.С. - Пророк</a>
+                </li>
+                <li class="poem-ref-item"><a class="poem-ref" href="/poems/items/Я памятник себе воздвиг нерукотворный.html">Пушкин А.С. - Я
+                    памятник себе воздвиг нерукотворный...</a>
+                </li>
+                <li class="poem-ref-item"><a class="poem-ref" href="/poems/items/Узник.html">Пушкин А.С. - Узник</a>
+                </li>
+                <li class="poem-ref-item"><a class="poem-ref" href="/poems/items/Ты и я (Александру I).html">Пушкин А.С. - Ты и я (Александру
+                    I)</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
