@@ -10,7 +10,7 @@ body{
 
     display: grid;
     grid-template-columns: 25vw 4fr;
-    grid-template-rows: 25vh 4fr;
+    grid-template-rows: 15vh 4fr;
     grid-gap:0.2vmin;
     background: saddlebrown;
     width: 100vw;
@@ -24,8 +24,10 @@ body{
     width: 100%;
     line-height: 8vh;
     align-content: center;
+    text-align: center;
 }
 .header-image-logo{
+    padding-left: 1vw;
     width: 8vw;
     height: 15vh;
 }
@@ -49,16 +51,14 @@ body{
     background: sandybrown;
     text-align: center;
     font-size: 2vw;
-    white-space: nowrap;
-    height: 99%;
     padding-top: 4vh;
+    height: calc(100% - 4vh);
 }
 .menu-button{
     background: sandybrown;
     margin-top: 1vh;
     font-size: 4vmin;
     text-align: center;
-    white-space: nowrap;
     width: 20vw;
     height: 10vh;
     border: 0;
@@ -68,24 +68,23 @@ body{
 }
 .content{
     background: darksalmon;
-    height: 100%;
 }
 .poem-title{
     text-align: center;
-    font: bold 24px "Times New Roman";
+    font: bold 32px "Times New Roman";
     margin-bottom: 3vh;
 }
 .poem-content{
     text-align: left;
-    font: italic 16px "Times New Roman"
+    font: italic 24px "Times New Roman"
 }
 .poem-author{
     text-align: right;
-    font: 16px "Times New Roman"
+    font: 24px "Times New Roman"
 }
 .poem div{
-    margin-left: 20vw;
-    margin-right: 10vw;
+    margin-left: 30vw;
+    margin-right: 20vw;
     margin-top: 3vh;
     white-space: nowrap;
 }
@@ -96,7 +95,6 @@ body{
     padding-left: 10vw;
     padding-right: 5vw;
     padding-top: 3vh;
-    height: 100%;
     background: darksalmon;
 }
 .poem-ref-item{
