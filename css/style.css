@@ -7,10 +7,9 @@ body{
     background: saddlebrown;
 }
 .main-container{
-
     display: grid;
     grid-template-columns: 25vw 4fr;
-    grid-template-rows: 15vh 4fr;
+    grid-template-rows: 15vh auto;
     grid-gap:0.2vmin;
     background: saddlebrown;
     width: 100vw;
@@ -67,7 +66,6 @@ body{
 }
 .content{
     background: darksalmon;
-    height: 100%;
 }
 .poem-title{
     text-align: center;
@@ -87,6 +85,7 @@ body{
     margin-right: 20vw;
     margin-top: 3vh;
     white-space: nowrap;
+    height: 100%;
 }
 .poem-list{
     text-align: left;
@@ -104,4 +103,37 @@ body{
 }
 .poem-ref{
     color:black;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .main-container{
+        display: -ms-grid;
+        -ms-grid-columns: 25vw 0.5vmin 4fr;
+        -ms-grid-rows: 15vh 0.5vmin 4fr;
+    }
+    .header-image{
+        display: -ms-grid;
+        -ms-grid-columns: 1fr 1fr;
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+    }
+    .header-image-logo{
+        -ms-grid-column: 1;
+    }
+    .header-image-text{
+        -ms-grid-column: 2;
+    }
+    #header-text{
+        font-size: 32pt;
+        -ms-grid-column: 3;
+        -ms-grid-row: 1;
+    }
+    #menu{
+        -ms-grid-column: 1;
+        -ms-grid-row: 3;
+    }
+    .content{
+        -ms-grid-column: 3;
+        -ms-grid-row: 3;
+    }
 }
