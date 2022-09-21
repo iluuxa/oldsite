@@ -2,7 +2,7 @@ $(function (){
     let headerImage = document.getElementById("header-image");
     let logo = document.createElement("img");
     logo.className="header-image-logo";
-    logo.src="/poems/book-5-128x128.png";
+    logo.src="/book-5-128x128.png";
     let headerImageText = document.createElement("div");
     headerImageText.className="header-image-text";
     headerImageText.textContent="Сборник стихотворений";
