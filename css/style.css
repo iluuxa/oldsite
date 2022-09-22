@@ -37,13 +37,13 @@ body{
 }
 .header-text{
     font-family: 'Times New Roman', serif;
-    line-height: 15vh;
+    line-height: 10vh;
     font-size: 3vmax;
     background: sandybrown;
     text-align: center;
     height: 100%;
     width: 100%;
-    margin-right: 20vw;
+    margin-right: 15vw;
 }
 .menu{
     background: sandybrown;
@@ -78,13 +78,15 @@ body{
 }
 .poem-author{
     text-align: right;
-    font: 24px "Times New Roman"
+    font: 24px "Times New Roman";
+    height: 100%;
+    margin-top: 3vh;
 }
 .poem{
-    padding-left: 30vw;
-    padding-right: 20vw;
+    margin:auto;
     padding-top: 3vh;
     white-space: nowrap;
+    width: min-content;
 }
 .poem-list{
     text-align: left;
