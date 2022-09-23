@@ -10,6 +10,6 @@ $(function () {
         });
         $("#menu").load("/menu.html");
         let container = document.getElementById("main-container");
-        container.style.height = window.innerHeight.toString();
+        container.style.height = window.innerHeight.toString()+"px";
     }
 );

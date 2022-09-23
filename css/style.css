@@ -9,7 +9,7 @@ body{
 .main-container{
     display: grid;
     grid-template-columns: 25vw 4fr;
-    grid-template-rows: 15vh auto;
+    grid-template-rows: 15vh 4fr;
     grid-gap:0.2vmin;
     background: saddlebrown;
     width: 100vw;
@@ -41,9 +41,9 @@ body{
     font-size: 3vmax;
     background: sandybrown;
     text-align: center;
-    height: 100%;
-    width: 100%;
     margin-right: 15vw;
+    height: 15vh;
+    width: 75vw;
 }
 .menu{
     background: sandybrown;
@@ -109,8 +109,8 @@ body{
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .main-container{
         display: -ms-grid;
-        -ms-grid-columns: 25vw 0.5vmin 4fr;
-        -ms-grid-rows: 15vh 0.5vmin 4fr;
+        -ms-grid-columns: 25vw 0.5vmin 1fr;
+        -ms-grid-rows: 15vh 0.5vmin auto;
     }
     .header-image{
         display: -ms-grid;
@@ -132,9 +132,26 @@ body{
     #menu{
         -ms-grid-column: 1;
         -ms-grid-row: 3;
+        min-height: 85vh;
     }
     .content{
         -ms-grid-column: 3;
         -ms-grid-row: 3;
+        min-height: 85vh;
+    }
+    .poem{
+        width: 30vw;
+        display: -ms-grid;
+        -ms-grid-columns: min-content;
+        -ms-grid-rows:min-content min-content min-content;
+    }
+    .poem-title{
+        -ms-grid-row:1;
+    }
+    .poem-content{
+        -ms-grid-row:2;
+    }
+    .poem-author{
+        -ms-grid-row:3;
     }
 }
