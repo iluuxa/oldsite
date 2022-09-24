@@ -12,7 +12,8 @@ body{
     grid-template-rows: 15vh 4fr;
     grid-gap:0.2vmin;
     background: saddlebrown;
-    width: calc(100vw - 1vw - 0.7vmin);
+    /*width: calc(100vw - 1vw - 0.7vmin);*/
+    width: 100vw;
 }
 .header-image{
     background: sandybrown;
@@ -35,8 +36,10 @@ body{
     text-align: center;
 }
 .header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Times New Roman', serif;
-    line-height: 10vh;
     font-size: 3vmax;
     background: sandybrown;
     text-align: center;
