@@ -12,8 +12,7 @@ body{
     grid-template-rows: 15vh 4fr;
     grid-gap:0.2vmin;
     background: saddlebrown;
-    width: 100vw;
-    height: 100vh;
+    width: calc(100vw - 1vw - 0.7vmin);
 }
 .header-image{
     background: sandybrown;
@@ -43,7 +42,7 @@ body{
     text-align: center;
     margin-right: 15vw;
     height: 15vh;
-    width: 75vw;
+    width: 100%;
 }
 .menu{
     background: sandybrown;
@@ -132,18 +131,23 @@ body{
     #menu{
         -ms-grid-column: 1;
         -ms-grid-row: 3;
-        min-height: 85vh;
+        min-height: calc(85vh - 0.5vmin);
+        height: calc(100% + 4vh);
     }
     .content{
         -ms-grid-column: 3;
         -ms-grid-row: 3;
-        min-height: 85vh;
+        min-height: calc(85vh - 0.5vmin);
+        height: calc(100% + 4vh);
     }
     .poem{
         width: 30vw;
         display: -ms-grid;
         -ms-grid-columns: min-content;
         -ms-grid-rows:min-content min-content min-content;
+    }
+    .poem-list-container{
+        width: 30vw;
     }
     .poem-title{
         -ms-grid-row:1;

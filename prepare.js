@@ -11,5 +11,8 @@ $(function () {
         $("#menu").load("/menu.html");
         let container = document.getElementById("main-container");
         container.style.height = window.innerHeight.toString()+"px";
+    window.addEventListener('resize', () => {
+        container.style.height = window.innerHeight.toString()+"px";
+    });
     }
 );
