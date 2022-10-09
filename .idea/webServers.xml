@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf7328a5-7af9-456d-9bb1-b852e7e87d88" name="iluuxa.github.io" url="http://localhost:63342">
+        <fileTransfer mountedRoot="D:\trash\Study materials\РКЧИР\Курсовая\poems" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

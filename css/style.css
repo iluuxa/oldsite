@@ -1,4 +1,4 @@
-body{
+body {
     /*height: 100%;
     line-height: 1;
     font-size: 16px;
@@ -6,16 +6,18 @@ body{
     margin: 0;
     background: saddlebrown;
 }
-.main-container{
+
+.main-container {
     display: grid;
     grid-template-columns: 25vw 4fr;
     grid-template-rows: 15vh 4fr;
-    grid-gap:0.2vmin;
+    grid-gap: 0.2vmin;
     background: saddlebrown;
     /*width: calc(100vw - 1vw - 0.7vmin);*/
     width: 100vw;
 }
-.header-image{
+
+.header-image {
     background: sandybrown;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,19 +25,22 @@ body{
     width: 100%;
     text-align: center;
 }
-.header-image-logo{
-    padding-left: 1vw;
+
+.header-image-logo {
+    padding-left: 2vw;
     width: 7vw;
     height: 14vh;
     text-align: center;
 }
-.header-image-text{
+
+.header-image-text {
     line-height: 8vh;
     padding-right: 0.5vmin;
     font-size: 2vmin;
     text-align: center;
 }
-.header-text{
+
+.header-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,14 +52,16 @@ body{
     height: 15vh;
     width: 100%;
 }
-.menu{
+
+.menu {
     background: sandybrown;
     text-align: center;
     font-size: 2vw;
     padding-top: 4vh;
     height: calc(100% - 4vh);
 }
-.menu-button{
+
+.menu-button {
     background: sandybrown;
     margin-top: 1vh;
     font-size: 4vmin;
@@ -63,102 +70,123 @@ body{
     height: 10vh;
     border: 0;
 }
-.menu-button:hover{
+
+.menu-button:hover {
     background: #a67044;
 }
-.content{
+
+.content {
     background: darksalmon;
 }
-.poem-title{
+
+.poem-title {
     text-align: center;
     font: bold 32px "Times New Roman";
     margin-bottom: 3vh;
 }
-.poem-content{
+
+.poem-content {
     text-align: left;
     font: italic 24px "Times New Roman"
 }
-.poem-author{
+
+.poem-author {
     text-align: right;
     font: 24px "Times New Roman";
     height: 100%;
     margin-top: 3vh;
 }
-.poem{
-    margin:auto;
+
+.poem {
+    margin: auto;
     padding-top: 3vh;
     white-space: nowrap;
     width: min-content;
 }
-.poem-list{
+
+.poem-list {
     text-align: left;
 }
-.poem-list-container{
+
+.poem-list-container {
     padding-left: 10vw;
     padding-right: 5vw;
     padding-top: 3vh;
     background: darksalmon;
 }
-.poem-ref-item{
-    color:black;
+
+.poem-ref-item {
+    color: black;
     font: 20pt "Times New Roman";
     margin-top: 2vh;
 }
-.poem-ref{
-    color:black;
+
+.poem-ref {
+    color: black;
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .main-container{
+    .main-container {
         display: -ms-grid;
         -ms-grid-columns: 25vw 0.5vmin 1fr;
         -ms-grid-rows: 15vh 0.5vmin auto;
     }
-    .header-image{
+
+    .header-image {
         display: -ms-grid;
         -ms-grid-columns: 1fr 1fr;
         -ms-grid-column: 1;
         -ms-grid-row: 1;
     }
-    .header-image-logo{
+
+    .header-image-logo {
         -ms-grid-column: 1;
     }
-    .header-image-text{
+
+    .header-image-text {
         -ms-grid-column: 2;
     }
-    #header-text{
+
+    #header-text {
         font-size: 32pt;
         -ms-grid-column: 3;
         -ms-grid-row: 1;
     }
-    #menu{
+
+    #menu {
         -ms-grid-column: 1;
         -ms-grid-row: 3;
         min-height: calc(85vh - 0.5vmin);
         height: calc(100% + 4vh);
     }
-    .content{
+
+    .content {
         -ms-grid-column: 3;
         -ms-grid-row: 3;
         min-height: calc(85vh - 0.5vmin);
         height: calc(100% + 4vh);
     }
-    .poem{
+
+    .poem {
         width: 30vw;
         display: -ms-grid;
         -ms-grid-columns: min-content;
-        -ms-grid-rows:min-content min-content min-content;
+        -ms-grid-rows: min-content min-content min-content;
     }
-    .poem-list-container{
+
+    .poem-list-container {
         width: 30vw;
     }
-    .poem-title{
-        -ms-grid-row:1;
+
+    .poem-title {
+        -ms-grid-row: 1;
     }
-    .poem-content{
-        -ms-grid-row:2;
+
+    .poem-content {
+        -ms-grid-row: 2;
     }
-    .poem-author{
-        -ms-grid-row:3;
+
+    .poem-author {
+        -ms-grid-row: 3;
     }
 }
